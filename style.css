@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(216, 223, 225);
+    font-family: 'Raleway', sans-serif;
+    height: 130vh;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: darkorange; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: rgb(0, 255, 187); */
+    height: 30vw;
+    width: 160vh;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.moreabout {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    margin-top: 23px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(241, 248, 248);
+    background-color: rgb(130, 134, 236);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(241, 248, 248);
+    color: rgb(130, 134, 236);
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.devPic img {
+    height: 60.6vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    margin: 2px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.hundred {
+    width: 265px;
+    background-color: rgb(130, 134, 236);
+}
+
+.fifty {
+    width: 125px;
+    background-color: palevioletred;
+}
+
+.t5 {
+    width: 75px;
+    background-color: blue;
+}
+
+@media (max-width: 1615px) {
+    /* * {
+        background-color: aqua;
+    } */
+
+    .sidebar {
+        transform: translate(-443 px, 0px);
+    }
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
